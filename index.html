@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<!-- Não estava dentro do head-->    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+<!-- Faltou fechamento em title-->    
+    <title>Exemplo de Estrutura HTML</title>
+<!-- Faltou fechamento no head -->
+<head/>
+<body>
+
+<header>
+ <!-- Faltou fechamento no h1 e não estava dentro do header-->
+   <h1>Minha Página de Estudos</h1>
+
+<!-- <nav> não estava dentro do header-->
+    <nav>
+
+<!-- <ul>não estava dentro do nav-->
+        <ul>
+<!-- Faltou fechamento </a> </li> e tive que colocar <li> dentro de <ul> -->
+            <li><a href="#inicio">Início </a> </li>
+            <li><a href="#sobre">Sobre</a> </li>
+            <li><a href="#servicos">Serviços</a> </li>
+            <li><a>Contato</a> </li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+<!-- section é dentro de main -->
+    <section id="inicio">
+    <!-- Faltou fechamento de <h2> e colocar dentro de section -->
+            <h2>Bem-vindo ao nosso site</h2>
+    <!-- Faltou  colocar dentro de section -->
+            <p>Esta é a página inicial de testes.
+    <!-- Faltou  colocar dentro de section -->
+            <ul>
+    <!-- Faltou fechamento de <li> e colocar dentro de <ul> -->
+                <li>Item Um
+                <li>Item Dois
+                <li>Item Três
+            </ul>
+    </section>
+
+    <section id="servicos">
+    <!-- Faltou colocar dentro de section e fechar <h2> -->
+        <h2>O que oferecemos</h2>
+    <!-- Faltou colocar dentro de section e fechar <p> -->
+        <p>Veja nossos principais serviços listados abaixo
+    <!-- Faltou colocar dentro de section  -->
+        <ol>
+    <!-- Faltou colocar dentro de <ol> e fechar <li>-->
+            <li>Consultoria</li>
+            <li>Desenvolvimento Web</li>
+            <li>Suporte Técnico</li>
+        </ol>
+        <aside>
+        <!-- Faltou colocar dentro de <aside> e fechar <h3> -->
+            <h3>Notícias Importantes</h3>
+
+
+        <!-- Luis Felipe -->
+
+            <!-- Ambos <p> estavam sem fechamento -->
+            <p>Fique atento às atualizações do site.</p>
+            <p>Em breve novas turmas abertas.</p> 
+            <a href="#novidades">Clique aqui</a>
+        </aside>
+    </section>
+
+    <section id="sobre">
+    <!-- Tags h2 e p faltando fechamento -->
+    <h2>Sobre Nós</h2>
+    <p>Somos apaixonados por tecnologia e educação</p>
+    </section>
+
+    <section id="contato">
+        <!-- Tags h2 e p faltando fechamento -->
+    <h2>Fale Conosco</h2>   
+    <p>Preencha o formulário abaixo para entrar em contato</p>  
+    
+    <!-- Label estava fora de form, e input estava fora de label -->
+    <form action="/enviar" method=post>
+        <label>Nome: <input type=text name=nome> </label>
+        
+        <label>Email:<input type=email name=email></label>
+        
+        <label>Mensagem: 
+            <textarea name=mensagem rows=4 cols=30>
+            </textarea>
+        </label>
+    </form>
+    </section>
+
+    <aside>
+        <!-- Tags h3 e p faltando fechamento -->
+    <h3>Conteúdo Relacionado</h3>   
+    <p>Veja também nossos cursos online gratuitos.</p>
+    </aside>
+</main>
+
+<footer>
+    <!-- P faltando fechamento -->
+    <p>Todos os direitos reservados 2025.</p>
+    <nav>
+        <ul>
+            <!-- Tag li faltando fechamento -->
+            <li><a href="#inicio">Início</a></li>   
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#contato">Contato</a></li> 
+        </ul>
+    </nav>
+</footer>
+</body>
+</html>
